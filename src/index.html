@@ -7,7 +7,108 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hola mundo!</h1>
+        <div id="contenedor">
+            <div id="welcome">
+              <h1>Bienvenido/a</h1>
+              <p>¿Planeas un sorteo de amigo secreto?</p>
+              <button id="start">Comenzar</button>
+            </div>
+          
+            <div id="details">
+                <h2>Detalles del evento</h2>
+                <form class="column1">
+                <label>Nombre del Evento</label>
+                <input type="text" placeholder="'Amigo secreto navideño'" id="nameEvent">
+                <label>Fecha del Evento</label>
+                <input type="date" id="dateEvent">
+                <label>Lugar del Evento</label>
+                <input type="text" placeholder="'En Laboratoria'" id="placeEvent">
+                <label>Precio mínimo</label>
+                <input type="text" placeholder="5.000" id="priceMin">
+                <label>Precio Máximo</label>
+                <input type="text" placeholder="10.000" id="priceMax">
+                </form>
+          
+                <div class="buttons">
+                    <button id="back1">Volver</button>
+                    <button id="continue1">Continuar</button>
+                </div>
+          
+                
+            </div>
+          
+            <div id="magicNumber">
+                <h2>Número Mágico</h2>
+                <div class="column2">
+                <p>Ingresa un número que nos ayudará a generar un código para mantener el nombre de los participantes en secreto.</p>
+                <input type="number" id="number" min="1" max="20">
+                </div>
+          
+                <div class="buttons">
+                    <button id="back2">Volver</button>
+                    <button id="continue2">Continuar</button>
+                </div>
+            </div>
+          
+            <div id="participants">
+                <h2>Participantes</h2>
+                <form class="column1">
+                      <label>Tu Nombre</label>
+                      <input type="text" id="name1" placeholder="'Juanita'">
+                      <label>Participante 1</label>
+                      <input type="text" id="name2" placeholder="'Pepita'">
+                      <label>Participante 2</label>
+                      <input type="text" id="name3" placeholder="'Pedrito'">
+                      <label>Participante 3</label>
+                      <input type="text" id="name4" placeholder="'Juanito'">
+                      <label>Participante 4</label>
+                      <input type="text" id="name5" placeholder="'Pepito'">
+                </form>
+          
+                <div class="buttons">
+                      <button id="back3">Volver</button>
+                      <button id="continue3">Continuar</button>
+                </div>  
+            </div>
+          
+            <div id="hiddenParticipants">
+                <h2>Participantes Ocultos</h2>
+                <ol class="column3">
+                <li></li>
+                <li></li>
+                <li></li> 
+                <li></li>
+                <li></li>
+                </ol>
+          
+                <div class="column2">
+                <h2>Tu amigo secreto es el número: 5</h2>
+                <input type="text" id="secretFriend">
+                <button id="show">Mostrar</button>
+                <h3 id="decoded"></h3>
+                </div>
+          
+                <div class="buttons">
+                      <button id="back4">Volver</button>
+                      <button id="finalize">Finalizar</button>
+                </div>
+            </div>
+          
+            <div id="final">
+                <h2>Shhhh!</h2>
+                <ul class="column3">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                </ul>
+          
+                <div class="btn">
+                  <button id="beginning">Inicio</button>
+               </div>
+            </div>
+          </div>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
