@@ -1,4 +1,4 @@
-#Juego online de Amigo Secreto
+# Juego online de Amigo Secreto
 
 Este proyecto esta dirigido a un público joven, estudiantes de educación media o universitarios, los cuales desean jugar al popularmente conocido “amigo secreto”. Principalmente esta enfocado a aquellos que se les dificulta la organización de este tipo de juegos, brindándoles una herramienta de fácil acceso y utilización para llevar a cabo esta tarea.
 
@@ -10,28 +10,30 @@ Para finalizar el juego, al usuario se le recuerdan los datos de del juego ingre
 Durante el proceso de creación del proyecto, hice varios cambios en relación a las conversaciones con mis compañeras o limitaciones que iba teniendo con los conocimientos o con el programa.
 En una primera etapa, realicé el flujo que tendría mi aplicación.
 
-![Flujo](<img src="https://ibb.co/89qP4Kw">)
+![Flujo](<img src="https://i.ibb.co/rHY5f7h/1.jpg>)
 
 Este resultó útil para darme una idea general de como funcionaría mi app y de inmediato, noté que habían pantallas o funciones que no eran tan necesarias, como preguntar cuantos participantes jugarían o preguntar mas datos de los participantes.
 
-![Wireframe-1](<img src="https://ibb.co/CmPyzz7">)
+![Wireframe-1](<img src="https://i.ibb.co/2WZryyt/2.jpg">)
 
 Al momento de hacer el primer wireframe, pude depurar lo que había hecho en el flujo. También pude tener una noción mas especifica de como quería los botones, de los elementos de html que iba a necesitar para construir mi proyecto y la cantidad de pantallas que necesitaría.
 Luego de probarlo, caí en cuenta de que no podría generar una base de datos para que llegara un link al mail de cada participante, por lo que decidí simplificar mi proyecto y hacerlo solo con el nombre y apellido de los participantes, como se muestra en la siguiente imagen.
 
-![Wireframe-2](<img src="https://ibb.co/chMwGxn">)
+![Wireframe-2](<img src="https://i.ibb.co/pjGQtnF/4.jpg">)
 
 En esta etapa ya tenia más claro y completo el proyecto. En ámbitos técnicos, ya había logrado cifrar el mensaje, más no había logrado mostrar el resultado del descifrado como yo quería, por lo que al momento de completar el proyecto en el html, realice algunos cambios que se muestran en la siguiente imagen.
 
-![Wireframe-3](<img src="https://ibb.co/Xx84R5G">)
+![Wireframe-Detallado](<img src="https://i.ibb.co/F4VWTYd/5.jpg">)
 
 El cambio que hice, fue que los nombres de los participantes se muestran en una lista, todos como texto cifrado. Para descifrar el texto, el usuario debe escribirlo en un input y apretar el botón mostrar para que este sea revelado.
 
 En una ultima iteración del diseño, reconfiguré la manera en la que se revelaba el amigo secreto cuyo nombre estaba cifrado. Ya no se muestra en una lista, si no que internamente, se elige un nombre de amigo secreto y se muestra en la pantalla, como lo muestra la siguiente imagen.
 
-![Resultado-Final](<img src="https://ibb.co/pwjQDpW">)
+![Resultado-Final](<img src="https://i.ibb.co/r023PJb/6.jpg">)
 
 También se agregó un fondo y reconfiguré la posición de los botones, el tamaño de los títulos y párrafos, los colores y tipografías, para dar una mejor jerarquía y darle instrucciones claras al usuario.
+
+
 
 
 /* Aquí comienza el readme que venia por defecto */
