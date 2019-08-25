@@ -5,52 +5,66 @@
 body{
     display: flex;
     justify-content: center;
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
 }
 
 #contenedor{
     width: 980px;
-    height: 500px;
-    padding: 80px 30px;
+    height: 600px;
+    margin-top: 15px;
+    padding: 60px 50px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
     background-color: #E6EBE0;
+}
+
+img{
+    margin-bottom: -100px;
 }
 
 h1{ 
     text-align: center;
     font-weight: bold;
     font-family: 'Gill Sans', sans-serif;
-    font-size: 48px;
-    color: #5CA4A9;
+    font-size: 32px;
+    color: #41AFA5;
 }
 
 h2{
     text-align: center;
     font-weight: bold;
     font-family: 'Gill Sans', sans-serif;
-    color: #5CA4A9;
+    font-size: 32px;
+    color: #41AFA5;
+    margin-top: 60px;
 }
 
 h3{
     font-weight: bold;
     font-family: 'Gill Sans', sans-serif;
+    font-size: 24px;
     color: #FF963A;
-    margin-top: 40px;
-    margin-bottom: 80px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 
 }
 
 p{
     text-align: center;
-    text-size-adjust: 16px;
+    line-height: 1.5;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+    font-size: 18px;
     font-family: 'Gill Sans', sans-serif;
-    color: #5CA4A9;
+    color: #41AFA5;
     
 }
 
 label{
     font-family: 'Gill Sans', sans-serif;
-    color: #5CA4A9;
+    color: #41AFA5;
 }
 
 button{
@@ -71,6 +85,7 @@ input{
     border: 1px solid #ccc;
     border-radius: 10px;
     font-family: 'Gill Sans', sans-serif;
+    font-size: 16px;
     color: rgba(0,0,0,0.8);
 }
 
@@ -82,16 +97,11 @@ input[type=number]{
     width: 10%;
 }
 
-ol{
-    font-size: 16px;
-    font-family: 'Gill Sans', sans-serif;
-    color: #5CA4A9
-}
 
 li{
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Gill Sans', sans-serif;
-    color: #5CA4A9
+    color: #41AFA5;
 }
 
 #welcome{
@@ -126,6 +136,9 @@ li{
 }
 
 .buttons{
+    width: 980px;
+    position: fixed;
+    bottom: 100px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -139,8 +152,9 @@ li{
 
 #show{
     width: 300px;
-    margin-top: 10px;
-    background-color: #5CA4A9;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #41AFA5;
 }
 
 #back1, #back2, #back3, #back4 {

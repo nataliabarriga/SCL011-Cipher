@@ -1,16 +1,15 @@
 /*Llamado de elementos HTML para DOM*/
+/*Declaración del boton y función para codificar */
 
-/*Declaración del botón y función para codificar*/
 const btnContinue = document.getElementById("continue3");
-let cipher1 = document.getElementsByTagName("li")[0];
+let cipher1=document.getElementById("secretFrienCipher");
 
 btnContinue.addEventListener("click",()=>{
     let magicNumber = parseInt(document.getElementById("number").value);
-    let name1 = document.getElementById("name1").value.toUpperCase();
+    let name5 = document.getElementById("name5").value.toUpperCase();
     
-    cipher1.innerHTML = window.cipher.encode(magicNumber,name1);
+    cipher1.textContent = window.cipher.encode(magicNumber,name5);
 })
-
 /*Declaración del boton y función para decodificar */
 
 const btnShow = document.getElementById("show");
@@ -22,7 +21,6 @@ btnShow.addEventListener("click", ()=>{
 
     decoded1.innerHTML = window.cipher.decode(magicNumber,nameDecoded1);
 })
-
 
 
 /*Boton comenzar*/
@@ -112,23 +110,23 @@ finalize.addEventListener("click", ()=>{
     /* Recuperación elementos del primer formulario "datalles del evento"*/
 
     let nameEvent = document.getElementById("nameEvent").value;
-    let event =document.getElementsByTagName("li")[5];
+    let event =document.getElementsByTagName("li")[0];
     event.innerHTML=nameEvent;
 
     let dateEvent = document.getElementById("dateEvent").value;
-    let date= document.getElementsByTagName("li")[6];
+    let date= document.getElementsByTagName("li")[1];
     date.innerHTML=dateEvent;
 
     let placeEvent = document.getElementById("placeEvent").value;
-    let place= document.getElementsByTagName("li")[7];
+    let place= document.getElementsByTagName("li")[2];
     place.innerHTML=placeEvent;
 
     let priceMin = document.getElementById("priceMin").value;
-    let min= document.getElementsByTagName("li")[8];
+    let min= document.getElementsByTagName("li")[3];
     min.innerHTML=priceMin;
 
     let priceMax = document.getElementById("priceMax").value;
-    let max= document.getElementsByTagName("li")[9];
+    let max= document.getElementsByTagName("li")[4];
     max.innerHTML=priceMax;
 
 })
@@ -142,4 +140,5 @@ beginning.addEventListener("click", ()=>{
     const hiddenDiv=document.getElementById("final");
     hiddenDiv.style.display="none";
 })
+
 /*Acá va tu código*/
