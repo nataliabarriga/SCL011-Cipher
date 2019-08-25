@@ -138,7 +138,7 @@ li{
 .buttons{
     width: 980px;
     position: fixed;
-    bottom: 100px;
+    top: 650px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
