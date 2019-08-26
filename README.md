@@ -23,13 +23,13 @@ Luego de probarlo, caí en cuenta de que no podría generar una base de datos pa
 
 En esta etapa ya tenia más claro y completo el proyecto. En ámbitos técnicos, ya había logrado cifrar el mensaje, más no había logrado mostrar el resultado del descifrado como yo quería, por lo que al momento de completar el proyecto en el html, realice algunos cambios que se muestran en la siguiente imagen.
 
-![Wireframe-Detallado](<a href="https://imgbb.com"><img src="https://i.ibb.co/F4VWTYd/5.jpg" alt="Segundo Wireframe"></a>)
+![Wireframe-Detallado](<a href="https://imgbb.com"><img src="https://i.ibb.co/F4VWTYd/5.jpg" alt="Wireframe Detallado"></a>)
 
 El cambio que hice, fue que los nombres de los participantes se muestran en una lista, todos como texto cifrado. Para descifrar el texto, el usuario debe escribirlo en un input y apretar el botón mostrar para que este sea revelado.
 
 En una ultima iteración del diseño, reconfiguré la manera en la que se revelaba el amigo secreto cuyo nombre estaba cifrado. Ya no se muestra en una lista, si no que internamente, se elige un nombre de amigo secreto y se muestra en la pantalla, como lo muestra la siguiente imagen.
 
-![Resultado-Final](<a href="https://imgbb.com"><img src="https://i.ibb.co/r023PJb/6.jpg" alt="Segundo Wireframe"></a>)
+![Resultado-Final](<a href="https://imgbb.com"><img src="https://i.ibb.co/r023PJb/6.jpg" alt="Resultado Final"></a>)
 
 También se agregó un fondo y reconfiguré la posición de los botones, el tamaño de los títulos y párrafos, los colores y tipografías, para dar una mejor jerarquía y darle instrucciones claras al usuario.
 
